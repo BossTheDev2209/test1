@@ -1,2 +1,2 @@
 # Boss's Project
-This project is about Sale Report system
+This project is about my first website
