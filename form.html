@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ลงทะเบียน</title>
+    <style>
+        form{
+            border: 4px solid teal;
+        }
+        input{
+            border: 3px solid mediumseagreen;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="Center">แบบฟอร์มลงทะเบียน</h1>
+    <form align="Center">
+        <br>
+        <div>
+            <label for="firstname">ชื่อจริง</label>
+            <input type="text" name="fname" placeholder="นายสมรักษ์" required>
+        </div>
+        <div>
+            <label for="lastname">นามสกุล</label>
+            <input type="text" name="lname" placeholder="คำว่าฮักเกิดขึ้นที่ใด">
+        </div>
+        <div>
+            <label for="email">อีเมล</label>
+            <input type="email" name="email" placeholder="testing@gmail.com" required>
+        </div>
+        <div>
+            <label for="password">รหัสผ่าน</label>
+            <input type="password" name="password" placeholder="boss2209">
+        </div>
+        <div>
+            <br>
+            <label for="ที่อยู่">ที่อยู่</label>
+            <textarea cols="30" rows="5" placeholder="บ้านเลขที่ หมู่บ้าน ตำบล อำเภอ จังหวัด เลขไปรษณีย์"></textarea>
+        </div>
+        <div>
+            <label for="Age">อายุ</label>
+            <input type="number" name="Age" min="0" max="99" value="18" readonly>
+        </div>
+        <div>
+            <label for="Bday">วันเกิด</label>
+            <input type="date" name="BirthDate">
+        </div>
+        <div>
+            <label for="tel">เบอร์โทรศัพท์</label>
+            <input type="tel" name="เบอร์โทรศัพท์">
+        </div>
+        <div>
+            <label for="Color">สีที่ไม่ชอบ</label>
+            <input type="color" name="color">
+        </div>
+        <div>
+            <label for="range">ช่วงตัวเลข</label>
+            <input type="range" name="rangenumber" value="10" min="0" max="100">
+        </div>
+        <div>
+            <label for="Education">ระดับการศึกษา</label>
+            <select name="edu" id="">
+                <option value="ปริญญา">ปริญญา</option>
+                <option value="มัธยม" selected>มัธยม</option> <!--selected = ค่าเริ่มต้น-->
+                <option value="ประถม">ประถม</option>
+            </select>
+        </div>
+        <div>
+            <label for="Gender">เพศ</label>
+            <input type="radio" name="Gender">เพศชาย
+            <input type="radio" name="Gender">เพศหญิง
+            <input type="radio" name="Gender">ไม้ขีดไฟ
+        </div>
+        <div>
+            <label for="Favourite">งานอดิเรก</label>
+            <input type="checkbox" name="Favourite">ฟังเพลง
+            <input type="checkbox" name="Favourite">ดูหนัง
+            <input type="checkbox" name="Favourite">ชักว่าว
+            <input type="checkbox" name="Favourite">ชักว่าวอีกรอบ
+            <input type="checkbox" name="Favourite">กูว่าแปลกๆ
+        </div>
+        <div>
+            <label for="File">แนบเอกสาร</label>
+            <input type="file">
+        </div>
+        <div>
+            <label for="link">เว็บไซต์อะไรสักอย่าง</label>
+            <input type="url">
+        </div>
+        <div>
+            <input type="submit" value="บันทึกข้อมูล"> <!--same-->
+            <button type="submit">บันทึกข้อมูล</button> <!--same-->
+        </div>
+        <div>
+            <input type="reset" value="เคลียร์">
+            <button type="reset">เคลียร์</button>
+        </div>
+    </form>
+    <span style="border: 2px solid tomato;">กุจะรั่ว5555656563636386346357433589734563456249562394586729762748723956256234958329854723750237467324677654272374023740329765396565376576576557639593847502152525725803478673894673489763276237984652347643296562348956325876238945647368902</span>
+    <br>
+    <br>
+    <hr>
+    <a href="index.html">กลับสู่หน้าหลัก</a>
+</body>
+</html>
